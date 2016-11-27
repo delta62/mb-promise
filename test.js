@@ -3,7 +3,7 @@
 const mb     = require('./index.js'),
   describe   = require('mocha').describe,
   it         = require('mocha').it,
-  before     = require('mocah').before,
+  before     = require('mocha').before,
   Wreck      = require('wreck'),
   expect     = require('code').expect,
   stubConfig = require('./stub-config.json');
