@@ -1,10 +1,12 @@
 'use strict';
 
-const mb                    = require('./index.js'),
-  { describe, it , before } = require('mocha'),
-  Wreck                     = require('wreck'),
-  expect                    = require('code').expect,
-  stubConfig                = require('./stub-config.json');
+const mb     = require('./index.js'),
+  describe   = require('mocha').describe,
+  it         = require('mocha').it,
+  before     = require('mocah').before,
+  Wreck      = require('wreck'),
+  expect     = require('code').expect,
+  stubConfig = require('./stub-config.json');
 
 let instance;
 
