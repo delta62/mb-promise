@@ -1,0 +1,32 @@
+{
+  "name": "mb-promise",
+  "version": "0.0.1",
+  "description": "Thin promise wrapper around Mountebank",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delta62/mb-promise.git"
+  },
+  "keywords": [
+    "mountebank",
+    "stub",
+    "promise"
+  ],
+  "author": "Sam Noedel <sam.noedel@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/delta62/mb-promise/issues"
+  },
+  "homepage": "https://github.com/delta62/mb-promise#readme",
+  "dependencies": {
+    "mountebank": "^1.6.0"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "mocha": "^3.2.0",
+    "wreck": "^10.0.0"
+  }
+}
